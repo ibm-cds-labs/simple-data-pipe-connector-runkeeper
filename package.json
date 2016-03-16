@@ -1,7 +1,7 @@
 {
   "name": "simple-data-pipe-connector-oauth-stripe",
   "version": "0.0.1",
-  "description": "Simple Data Pipe connector OAuth1.0 boilerplate for stripe.",
+  "description": "Simple Data Pipe connector OAuth2.0 boilerplate for stripe.",
   "main": "./lib",
   "repository": {
     "type": "git",
