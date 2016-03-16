@@ -1,14 +1,14 @@
 {
   "name": "simple-data-pipe-connector-oauth-stripe",
   "version": "0.0.1",
-  "description": "Basic Simple Data Pipe oAuth connector starter kit for Stripe.",
+  "description": "Simple Data Pipe connector OAuth1.0 boilerplate for stripe.",
   "main": "./lib",
   "repository": {
     "type": "git",
     "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe"
   },
   "simple_data_pipe": {
-    "name": "stripe_oauth_only",
+    "name": "stripe_oauth2_0_boilerplate",
     "service_dependencies": []
   },
   "keywords": [
@@ -20,11 +20,10 @@
   ],
   "dependencies": {
     "bluemix-helper-config": "^0.1.13",
-    "fs": "0.0.2",
     "lodash": "^4.3.0",
-    "path": "^0.12.7",
     "passport-stripe": "^0.2.2",
-    "simple-data-pipe-sdk": "^0.2.2"
+    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation",
+    "stripe": "^4.5.0"
   },
   "author": {
     "name": "ptitzler@us.ibm.com"
