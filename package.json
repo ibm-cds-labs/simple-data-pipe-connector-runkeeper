@@ -1,19 +1,19 @@
 {
-  "name": "simple-data-pipe-connector-oauth-stripe",
+  "name": "simple-data-pipe-connector-oauth-runkeeper",
   "version": "0.0.1",
-  "description": "Simple Data Pipe connector OAuth2.0 boilerplate for stripe.",
+  "description": "Simple Data Pipe connector OAuth2.0 boilerplate for runkeeper.",
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe"
+    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-oauth-runkeeper"
   },
   "simple_data_pipe": {
-    "name": "stripe_oauth2_0_boilerplate",
+    "name": "runkeeper_oauth2_0_boilerplate",
     "service_dependencies": []
   },
   "keywords": [
     "simple data pipe",
-    "stripe",
+    "runkeeper",
     "connector",
     "Cloudant",
     "data movement"
@@ -21,16 +21,16 @@
   "dependencies": {
     "bluemix-helper-config": "^0.1.13",
     "lodash": "^4.3.0",
-    "passport-stripe": "^0.2.2",
-    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation",
-    "stripe": "^4.5.0"
+    "runkeeper-js": "^1.0.0",
+    "passport-runkeeper": "^0.1.2",
+    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation"
   },
   "author": {
-    "name": "ptitzler@us.ibm.com"
+    "name": "markwats@us.ibm.com"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe/issues"
+    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-oauth-runkeeper/issues"
   },
   "readmeFilename": "README.md"
 }
