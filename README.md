@@ -5,7 +5,7 @@
 
 # Simple Data Pipe connector for [RunKeeper](https://runkeeper.com/developer/healthgraph/)
 
-This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for RunKeeper starter kit has been customized for [RunKeeper Health Graph](https://runkeeper.com/developer/healthgraph/) OAuth access. You can build your own special purpose connector by implementing the `getRunKeeperDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from RunKeeper and optionally enrich it.
+This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for RunKeeper has been customized for [RunKeeper Health Graph](https://runkeeper.com/developer/healthgraph/) OAuth access. You can build your own special purpose connector by implementing the `getRunKeeperDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from RunKeeper and optionally enrich it.
 ### Pre-requisites
 
 ##### General 
