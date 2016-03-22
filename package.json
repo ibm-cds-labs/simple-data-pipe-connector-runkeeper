@@ -1,11 +1,11 @@
 {
-  "name": "simple-data-pipe-connector-oauth-runkeeper",
+  "name": "simple-data-pipe-connector-runkeeper",
   "version": "0.0.1",
-  "description": "Simple Data Pipe connector OAuth2.0 for RunKeeper.",
+  "description": "Simple Data Pipe connector for RunKeeper.",
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-oauth-runkeeper"
+    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-runkeeper"
   },
   "simple_data_pipe": {
     "name": "runkeeper",
@@ -30,7 +30,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-oauth-runkeeper/issues"
+    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-runkeeper/issues"
   },
   "readmeFilename": "README.md"
 }

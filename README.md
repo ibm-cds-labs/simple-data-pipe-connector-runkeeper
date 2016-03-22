@@ -3,7 +3,7 @@
 ***
 
 
-# Simple Data Pipe connector boilerplate for [RunKeeper](https://runkeeper.com/developer/healthgraph/)
+# Simple Data Pipe connector for [RunKeeper](https://runkeeper.com/developer/healthgraph/)
 
 This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for RunKeeper starter kit has been customized for [RunKeeper Health Graph](https://runkeeper.com/developer/healthgraph/) OAuth access. You can build your own special purpose connector by implementing the `getRunKeeperDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from RunKeeper and optionally enrich it.
 ### Pre-requisites
@@ -20,13 +20,13 @@ This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-
 This connector does not require any additional Bluemix service.
 
 
-##### Install the Simple Data Pipe OAuth sample connector 
+##### Install the Simple Data Pipe connector for RunKeeper
 
   When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the `package.json` file: 
 
 > BETA ONLY
 ```
-"simple-data-pipe-connector-oauth-runkeeper": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-runkeeper.git#pp_validation"
+"simple-data-pipe-connector-runkeeper": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-runkeeper.git"
 ```
 
 ##### Enable OAuth support and collect connectivity information
@@ -48,13 +48,13 @@ This connector does not require any additional Bluemix service.
  * Copy the _Client ID_ and _Client Secret_ values. You’ll need this information to configure your RunKeeper data pipes.
 
 
-### Using the Simple Data Pipe connector boilerplate for RunKeeper
+### Using the Simple Data Pipe connector for RunKeeper
 
 To configure and run a pipe
 
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
-3. Select __RunKeeper OAuth Data Source__ for the __Type__ when creating a new pipe.
+3. Select __RunKeeper__ for the __Type__ when creating a new pipe.
 4. In the _Connect_ page, enter the _Client ID_ and _Client Secret_ from the Keys and URLs page for your RunKeeper application.
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
