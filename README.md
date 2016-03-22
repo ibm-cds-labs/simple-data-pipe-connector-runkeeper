@@ -3,13 +3,13 @@
 ***
 
 
-# Simple Data Pipe connector boilerplate for RunKeeper (https://runkeeper.com/developer/healthgraph/)
+# Simple Data Pipe connector boilerplate for [RunKeeper](https://runkeeper.com/developer/healthgraph/)
 
 This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for RunKeeper starter kit has been customized for [RunKeeper Health Graph](https://runkeeper.com/developer/healthgraph/) OAuth access. You can build your own special purpose connector by implementing the `getRunKeeperDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from RunKeeper and optionally enrich it.
 ### Pre-requisites
 
 ##### General 
- A valid RunKeeper user id is required to use this connector.
+ A valid RunKeeper account is required to use this connector.
 
 ##### Deploy the Simple Data Pipe
 
@@ -47,7 +47,6 @@ This connector does not require any additional Bluemix service.
  * Click the **Register Application** button on the bottom.
  * Under your application name click **Keys and URLs**
  * Copy the _Client ID_ and _Client Secret_ values. You’ll need this information to configure your RunKeeper data pipes.
- * Click *Done*.
 
 
 ### Using the Simple Data Pipe connector boilerplate for RunKeeper
