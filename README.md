@@ -37,7 +37,6 @@ This connector does not require any additional Bluemix service.
 
     > If you don’t yet have an account, sign up.
 
-
  * In the top menu, click **Applications**.
  * Click the **Register a New Application** tab.
  * Enter the following information:
