@@ -23,7 +23,7 @@
     "lodash": "^4.3.0",
     "runkeeper-js": "^1.0.0",
     "passport-runkeeper": "^0.1.2",
-    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation"
+    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git"
   },
   "author": {
     "name": "markwats@us.ibm.com"
