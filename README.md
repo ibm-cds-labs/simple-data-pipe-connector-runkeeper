@@ -88,7 +88,7 @@ This connector does not require any additional Bluemix service.
     *   Description of the app.
     *   Organization.
  * Click the **Register Application** button on the bottom.
- * Under your application name click **Keys and URLs**
+ * Under your application name click **Keys and URLs**.
  * Copy the _Client ID_ and _Client Secret_ values. You’ll need this information to configure your Runkeeper data pipes.
 
 
@@ -99,7 +99,7 @@ To configure and run a pipe
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
 3. Select __Runkeeper__ for the __Type__ when creating a new pipe.
-4. In the _Connect_ page, enter the _Client ID_ and _Client Secret_ from the Keys and URLs page for your Runkeeper application.
+4. In the _Connect_ page, enter the _Client ID_ and _Client Secret_ from the **Keys and URLs** page for your Runkeeper application.
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
 
