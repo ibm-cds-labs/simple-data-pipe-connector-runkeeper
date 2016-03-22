@@ -81,7 +81,7 @@ This connector does not require any additional Bluemix service.
  * Open the [Runkeeper Partner Portal](https://runkeeper.com/partner) and log in.
 
     > If you don’t yet have an account, sign up.
- * In the top menu, click **Applications**.
+ * In the top menu click **Applications**.
  * Click the **Register a New Application** tab.
  * Enter the following information:
     *   Name of the app. Enter any unique identifier, like My Simple Data Pipe Demo App.
