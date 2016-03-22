@@ -3,13 +3,13 @@
 ***
 
 
-# Simple Data Pipe connector boilerplate for stripe.com
+# Simple Data Pipe connector boilerplate for RunKeeper (https://runkeeper.com/developer/healthgraph/)
 
-This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for reddit starter kit has been customized for [stripe.com](http://www.stripe.com) OAuth access. You can build your own special purpose connector by implementing the `getStripeDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from stripe.com and optionally enrich it.
+This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for RunKeeper starter kit has been customized for [RunKeeper Health Graph](https://runkeeper.com/developer/healthgraph/) OAuth access. You can build your own special purpose connector by implementing the `getRunKeeperDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from RunKeeper and optionally enrich it.
 ### Pre-requisites
 
 ##### General 
- A valid stripe user id is required to use this connector.
+ A valid RunKeeper user id is required to use this connector.
 
 ##### Deploy the Simple Data Pipe
 
@@ -26,43 +26,38 @@ This connector does not require any additional Bluemix service.
 
 > BETA ONLY
 ```
-"simple-data-pipe-connector-oauth-stripe": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe.git#pp_validation"
+"simple-data-pipe-connector-oauth-runkeeper": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-runkeeper.git#pp_validation"
 ```
 
 ##### Enable OAuth support and collect connectivity information
 
  You need to register the Simple Data Pipe application before you can use this connector to load data.
  
- * Open the [stripe.com dashboard](http://www.stripe.com) and log in.
+ * Open the [RunKeeper Partner Portal](https://runkeeper.com/partner) and log in.
 
-    > If you don’t yet have an account, sign up. You can try these steps with test data. You can create test data through the UI for the Stripe test environment. See their docs for test card numbers and other simulated parameters.
+    > If you don’t yet have an account, sign up.
 
 
- * On the upper right of the screen, click **Your account** > **Account Settings**.
- * Click the **API Keys** tab.
- * Note the key value for the data you want to copy to Cloudant. You’ll need this string in the next section.
- 
-    >  To retrieve only test data, copy the value in _Test Secret Key_. To retrieve production data, copy the value in _Live Secret Key_.
-
- * Click the **Connect** tab.
- * If you never connected to an app before, go to the lower left of the screen and click **Register your platform**. If you have previously connected to an app, click the **Platform Settings** button, then **Register your platform**.
- * In the _standalone accounts_ section enter the following information:
+ * In the top menu, click **Applications**.
+ * Click the **Register a New Application** tab.
+ * Enter the following information:
     *   Name of the app. Enter any unique identifier, like My Simple Data Pipe Demo App.
-    *   Website URL (used for reference only) of your Simple Data Pipe application. You can get this URL from the Simple Data Pipe browser window you left open. Just copy and paste the URL from the address bar. It is: `https://<your-simple-data-pipe-host-name>.mybluemix.net`.
-    *   Redirect URIs. Enter a value for the Stripe environment in which you’re working: development or production. Your entry will be the same for either one: `https://<your--simple-data-pipe-host-name>.mybluemix.net/authCallback`
-
- * Copy the _client_id_ value for the environment you’re working in: either production or development. You’ll need this string to configure your Stripe data pipes.
+    *   Description of the app.
+    *   Organization.
+ * Click the **Register Application** button on the bottom.
+ * Under your application name click **Keys and URLs**
+ * Copy the _Client ID_ and _Client Secret_ values. You’ll need this information to configure your RunKeeper data pipes.
  * Click *Done*.
 
 
-### Using the Simple Data Pipe connector boilerplate for stripe.com
+### Using the Simple Data Pipe connector boilerplate for RunKeeper
 
 To configure and run a pipe
 
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
-3. Select __Stripe OAuth Data Source__ for the __Type__ when creating a new pipe.  
-4. In the _Connect_ page, enter the _application id_ and _secret_ from the Stripe account settings page. 
+3. Select __RunKeeper OAuth Data Source__ for the __Type__ when creating a new pipe.
+4. In the _Connect_ page, enter the _Client ID_ and _Client Secret_ from the Keys and URLs page for your RunKeeper application.
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
 
