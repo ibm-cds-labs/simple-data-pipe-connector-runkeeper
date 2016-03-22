@@ -5,7 +5,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-runkeeper"
+    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-runkeeper"
   },
   "simple_data_pipe": {
     "name": "runkeeper",
@@ -23,14 +23,14 @@
     "lodash": "^4.3.0",
     "runkeeper-js": "^1.0.0",
     "passport-runkeeper": "^0.1.2",
-    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git"
+    "simple-data-pipe-sdk": "^0.2.4"
   },
   "author": {
     "name": "markwats@us.ibm.com"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-runkeeper/issues"
+    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-runkeeper/issues"
   },
   "readmeFilename": "README.md"
 }
