@@ -1,14 +1,14 @@
 {
   "name": "simple-data-pipe-connector-oauth-runkeeper",
   "version": "0.0.1",
-  "description": "Simple Data Pipe connector OAuth2.0 boilerplate for runkeeper.",
+  "description": "Simple Data Pipe connector OAuth2.0 for RunKeeper.",
   "main": "./lib",
   "repository": {
     "type": "git",
     "url": "https://github.com/markwatsonatx/simple-data-pipe-connector-oauth-runkeeper"
   },
   "simple_data_pipe": {
-    "name": "runkeeper_oauth2_0_boilerplate",
+    "name": "runkeeper",
     "service_dependencies": []
   },
   "keywords": [
