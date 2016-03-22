@@ -1,7 +1,7 @@
 {
   "name": "simple-data-pipe-connector-runkeeper",
   "version": "0.0.1",
-  "description": "Simple Data Pipe connector for RunKeeper.",
+  "description": "Simple Data Pipe connector for Runkeeper.",
   "main": "./lib",
   "repository": {
     "type": "git",
