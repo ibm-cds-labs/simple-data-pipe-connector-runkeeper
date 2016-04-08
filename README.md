@@ -63,7 +63,7 @@ Need to load data from other sources? Check out the [connector repository](https
 
 ##### Services
 
-This connector does not require any additional Bluemix service.
+This connector does not require any additional Bluemix services.
 
 
 ##### Install the Simple Data Pipe connector for Runkeeper
