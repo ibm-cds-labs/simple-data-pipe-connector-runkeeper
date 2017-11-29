@@ -1,5 +1,7 @@
 # Simple Data Pipe connector for [Runkeeper](https://runkeeper.com/developer/healthgraph/)
 
+:no_entry_sign: This project is no longer maintained.
+
 This connector uses the [Runkeeper Health Graph API](https://runkeeper.com/developer/healthgraph/) to fetch the following data from your Runkeeper account:
 
  * Profile
